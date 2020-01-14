@@ -94,7 +94,11 @@
     <string name="string_feedback_form">Feedback Form</string>
     <string name="string_feedback_valued">We sincerely value your view.</string>
 
+    <string name="textview_patient_name">Patient Name:</string>
+    
     <string name="button_opd"><u>OPD</u></string>
     <string name="button_ipd"><u>IPD</u></string>
     <string name="title_activity_personal_details">PersonalDetails</string>
+    <string name="title_activity_personal_details_page">PersonalDetailsPage</string>
+    
 </resources>

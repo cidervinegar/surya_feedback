@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".PersonalDetailsPage"
+            android:label="@string/title_activity_personal_details_page"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".ScrollingActivity"
             android:label="@string/string_feedback_form"
             android:theme="@style/AppTheme.NoActionBar">

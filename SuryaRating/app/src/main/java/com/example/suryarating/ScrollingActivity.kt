@@ -1,18 +1,35 @@
 package com.example.suryarating
 
+import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Button
 import kotlinx.android.synthetic.main.activity_scrolling.*
+import kotlinx.android.synthetic.main.content_scrolling.*
+import kotlinx.android.synthetic.main.content_scrolling.view.*
+import java.util.logging.Logger
 
 class ScrollingActivity : AppCompatActivity() {
+    private val TAG : String = "Starting activity"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_scrolling)
         setSupportActionBar(toolbar)
+        button_ipd.setOnClickListener { view ->
+            Log.d(TAG, "ipd button clicked")
+            val intent = Intent(this, PersonalDetailsPage::class.java)
+            startActivity(intent)
+        }
+        button_opd.setOnClickListener { view ->
+            Log.d(TAG, "opd button clicked")
+            val intent = Intent(this, PersonalDetailsPage::class.java)
+            startActivity(intent)
+        }
         fab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
