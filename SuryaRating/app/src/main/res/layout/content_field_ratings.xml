@@ -38,6 +38,159 @@
             android:layout_marginRight="@dimen/text_margin"
             android:numStars="5"
             android:max="5"/>
-        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+             android:layout_marginRight="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:text="@string/textview_cleanliness_of_hospital"
+            android:textSize="@dimen/text_size" />
+
+        <androidx.appcompat.widget.AppCompatRatingBar
+            android:id="@+id/bar_cleanliness_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:numStars="5"
+            android:max="5"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:text="@string/textview_billing_process"
+            android:textSize="@dimen/text_size" />
+
+        <androidx.appcompat.widget.AppCompatRatingBar
+            android:id="@+id/bar_billing_process"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:numStars="5"
+            android:max="5"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:text="@string/textview_ease_of_booking"
+            android:textSize="@dimen/text_size" />
+
+        <androidx.appcompat.widget.AppCompatRatingBar
+            android:id="@+id/bar_ease_of_booking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:numStars="5"
+            android:max="5"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:text="@string/textview_transparent_communication"
+            android:textSize="@dimen/text_size" />
+
+        <androidx.appcompat.widget.AppCompatRatingBar
+            android:id="@+id/bar_transparent_communication"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:numStars="5"
+            android:max="5"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:text="@string/textview_waiting_time"
+            android:textSize="@dimen/text_size" />
+
+        <androidx.appcompat.widget.AppCompatRatingBar
+            android:id="@+id/bar_waiting_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:numStars="5"
+            android:max="5"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:text="@string/textview_care_provided_by_doctor"
+            android:textSize="@dimen/text_size" />
+
+        <androidx.appcompat.widget.AppCompatRatingBar
+            android:id="@+id/bar_care_provided_by_doctor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:numStars="5"
+            android:max="5"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:text="@string/textview_care_provided_by_nursing_staff"
+            android:textSize="@dimen/text_size" />
+
+        <androidx.appcompat.widget.AppCompatRatingBar
+            android:id="@+id/bar_care_provided_by_nursing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:numStars="5"
+            android:max="5"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:text="@string/textview_hospital_infrastructure"
+            android:textSize="@dimen/text_size" />
+
+        <androidx.appcompat.widget.AppCompatRatingBar
+            android:id="@+id/bar_hospital_infrastructure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:numStars="5"
+            android:max="5"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:text="@string/textview_value_for_money"
+            android:textSize="@dimen/text_size" />
+
+        <androidx.appcompat.widget.AppCompatRatingBar
+            android:id="@+id/bar_value_for_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:numStars="5"
+            android:max="5"/>
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>
