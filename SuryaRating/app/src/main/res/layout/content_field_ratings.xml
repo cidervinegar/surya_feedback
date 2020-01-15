@@ -38,5 +38,6 @@
             android:layout_marginRight="@dimen/text_margin"
             android:numStars="5"
             android:max="5"/>
+        
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>

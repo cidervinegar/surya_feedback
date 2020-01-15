@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".RecommendRating"
+            android:label="@string/title_activity_recommend_rating"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".FieldRatings"
             android:label="@string/title_activity_field_ratings"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".PersonalDetailsPage"
             android:label="@string/title_activity_personal_details_page"

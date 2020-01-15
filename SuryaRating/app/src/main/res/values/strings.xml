@@ -116,5 +116,6 @@
     <string name="title_activity_personal_details">PersonalDetails</string>
     <string name="title_activity_personal_details_page">PersonalDetailsPage</string>
     <string name="title_activity_field_ratings">FieldRatings</string>
+    <string name="title_activity_recommend_rating">RecommendRating</string>
 
 </resources>
