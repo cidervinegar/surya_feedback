@@ -107,8 +107,15 @@
 
     <string name="textview_instructions_1">On a scale of 1 to 5, where 1 is dissatisfied and 5 is extremely satisfied, how do you rate the following at Surya Hospitals:</string>
     <string name="textview_location_of_hospital">Location of the Hospital</string>
-    <string name="textview_cleanliness_at_hospital">Cleanliness at the Hospital</string>
-
+    <string name="textview_ease_of_booking">Cleanliness at the Hospital</string>
+    <string name="textview_transparent_communication">Transparent Communication from Hospital</string>
+    <string name="textview_waiting_time">Waiting Time at Hospital</string>
+    <string name="textview_care_provided_by_doctor">Care provided by doctor</string>
+    <string name="textview_care_provided_by_nursing_staff">Care provided by nursing staff</string>
+    <string name="textview_hospital_infrastructure">Hospital Infrastructure</string>
+    <string name="textview_billing_process">Billing Process</string>
+    <string name="textview_value_for_money">Value for Money</string>
+    <string name="textview_cleanliness_of_hospital">Cleanliness of Hospital</string>
     <string name="edittext_signature">Enter full name</string>
 
     <string name="button_opd"><u>OPD</u></string>
