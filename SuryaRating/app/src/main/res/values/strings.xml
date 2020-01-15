@@ -105,11 +105,16 @@
     <string name="textview_email">Email:</string>
     <string name="textview_signature">Signature:</string>
 
+    <string name="textview_instructions_1">On a scale of 1 to 5, where 1 is dissatisfied and 5 is extremely satisfied, how do you rate the following at Surya Hospitals:</string>
+    <string name="textview_location_of_hospital">Location of the Hospital</string>
+    <string name="textview_cleanliness_at_hospital">Cleanliness at the Hospital</string>
+
     <string name="edittext_signature">Enter full name</string>
-    
+
     <string name="button_opd"><u>OPD</u></string>
     <string name="button_ipd"><u>IPD</u></string>
     <string name="title_activity_personal_details">PersonalDetails</string>
     <string name="title_activity_personal_details_page">PersonalDetailsPage</string>
-    
+    <string name="title_activity_field_ratings">FieldRatings</string>
+
 </resources>

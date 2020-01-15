@@ -17,12 +17,12 @@ class ScrollingActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_scrolling)
         setSupportActionBar(toolbar)
-        button_ipd.setOnClickListener { view ->
+        button_ipd.setOnClickListener { _ ->
             Log.d(TAG, "ipd button clicked")
             val intent = Intent(this, PersonalDetailsPage::class.java)
             startActivity(intent)
         }
-        button_opd.setOnClickListener { view ->
+        button_opd.setOnClickListener { _ ->
             Log.d(TAG, "opd button clicked")
             val intent = Intent(this, PersonalDetailsPage::class.java)
             startActivity(intent)

@@ -10,15 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".FieldRatings"
+            android:label="@string/title_activity_field_ratings"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".PersonalDetailsPage"
             android:label="@string/title_activity_personal_details_page"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".ScrollingActivity"
-            android:windowSoftInputMode="adjustResize"
             android:label="@string/string_feedback_form"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
