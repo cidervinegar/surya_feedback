@@ -8,6 +8,7 @@
     tools:context=".PersonalDetailsPage"
     tools:showIn="@layout/activity_personal_details_page">
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -16,7 +17,7 @@
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal" >
+            android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/textview_patient_name"
@@ -29,15 +30,215 @@
 
             <EditText
                 android:id="@+id/edittext_patient_name"
-                android:layout_height="wrap_content"
                 android:layout_width="match_parent"
-                app:layout_constraintTop_toTopOf="parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/text_margin"
                 android:layout_marginRight="@dimen/text_margin"
-                android:layout_marginVertical="@dimen/text_margin"
-                android:textSize="@dimen/text_size"/>
+                android:layout_marginBottom="@dimen/text_margin"
+                android:textSize="@dimen/text_size"
+                app:layout_constraintTop_toTopOf="parent" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textview_consulting_doctor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:gravity="center_vertical"
+                android:text="@string/textview_consulting_doctor"
+                android:textSize="@dimen/text_size" />
+
+            <EditText
+                android:id="@+id/edittext_consulting_doctor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginRight="@dimen/text_margin"
+                android:layout_marginBottom="@dimen/text_margin"
+                android:textSize="@dimen/text_size"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textview_speciality"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:gravity="center_vertical"
+                android:text="@string/textview_speciality"
+                android:textSize="@dimen/text_size" />
+
+            <EditText
+                android:id="@+id/edittext_speciality"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginRight="@dimen/text_margin"
+                android:layout_marginBottom="@dimen/text_margin"
+                android:textSize="@dimen/text_size"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textview_uhid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:gravity="center_vertical"
+                android:text="@string/textview_UHID"
+                android:textSize="@dimen/text_size" />
+
+            <EditText
+                android:id="@+id/edittext_uhid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginRight="@dimen/text_margin"
+                android:layout_marginBottom="@dimen/text_margin"
+                android:textSize="@dimen/text_size"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textview_date_of_visit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:gravity="center_vertical"
+                android:text="@string/textview_date_of_visit"
+                android:textSize="@dimen/text_size" />
+
+            <EditText
+                android:id="@+id/edittext_date_of_visit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginRight="@dimen/text_margin"
+                android:layout_marginBottom="@dimen/text_margin"
+                android:textSize="@dimen/text_size"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textview_contact_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:gravity="center_vertical"
+                android:text="@string/textview_contact_no"
+                android:textSize="@dimen/text_size" />
+
+            <EditText
+                android:id="@+id/edittext_contact_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginRight="@dimen/text_margin"
+                android:layout_marginBottom="@dimen/text_margin"
+                android:textSize="@dimen/text_size"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textview_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:gravity="center_vertical"
+                android:text="@string/textview_email"
+                android:textSize="@dimen/text_size" />
+
+            <EditText
+                android:id="@+id/edittext_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginRight="@dimen/text_margin"
+                android:layout_marginBottom="@dimen/text_margin"
+                android:textSize="@dimen/text_size"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textview_signature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:gravity="center_vertical"
+                android:text="@string/textview_signature"
+                android:textSize="@dimen/text_size" />
+
+            <EditText
+                android:id="@+id/edittext_signature"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginRight="@dimen/text_margin"
+                android:layout_marginBottom="@dimen/text_margin"
+                android:hint="@string/edittext_signature"
+                android:textSize="@dimen/text_size"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/button_personal_details_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="@dimen/fab_margin"
+                app:srcCompat="@android:drawable/ic_media_play" />
+
+        </LinearLayout>
     </LinearLayout>
 
 </androidx.core.widget.NestedScrollView>

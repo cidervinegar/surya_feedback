@@ -91,10 +91,21 @@
     </string>
     <string name="action_settings">Settings</string>
 
+    <string name="button_next"><u>Next</u></string>
+
     <string name="string_feedback_form">Feedback Form</string>
     <string name="string_feedback_valued">We sincerely value your view.</string>
 
     <string name="textview_patient_name">Patient Name:</string>
+    <string name="textview_consulting_doctor">Consulting Doctor:</string>
+    <string name="textview_speciality">Speciality:</string>
+    <string name="textview_UHID">UHID:</string>
+    <string name="textview_date_of_visit">Date of Visit:</string>
+    <string name="textview_contact_no">Contact Number:</string>
+    <string name="textview_email">Email:</string>
+    <string name="textview_signature">Signature:</string>
+
+    <string name="edittext_signature">Enter full name</string>
     
     <string name="button_opd"><u>OPD</u></string>
     <string name="button_ipd"><u>IPD</u></string>

@@ -12,9 +12,11 @@
         <activity
             android:name=".PersonalDetailsPage"
             android:label="@string/title_activity_personal_details_page"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".ScrollingActivity"
+            android:windowSoftInputMode="adjustResize"
             android:label="@string/string_feedback_form"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>

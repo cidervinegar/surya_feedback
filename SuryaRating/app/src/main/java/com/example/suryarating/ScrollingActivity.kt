@@ -7,11 +7,8 @@ import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.Button
 import kotlinx.android.synthetic.main.activity_scrolling.*
 import kotlinx.android.synthetic.main.content_scrolling.*
-import kotlinx.android.synthetic.main.content_scrolling.view.*
-import java.util.logging.Logger
 
 class ScrollingActivity : AppCompatActivity() {
     private val TAG : String = "Starting activity"
