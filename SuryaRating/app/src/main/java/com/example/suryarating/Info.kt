@@ -33,6 +33,11 @@ class Info : Application() {
     var visitingSince : VisitTimes? = null
     var numberOfVisits : NumberOfVisits? = null
 
+    var heardOfUs : ArrayList<HeardOfUs> = ArrayList()
+    var others : String? = null
+    var doctorsRef : String? = null
+    var wordOfMouth : String? = null
+
     fun clearInfo() {
         patientDepartment = null
         patientName = null
@@ -63,6 +68,8 @@ class Info : Application() {
         visitingSince = null
 
         numberOfVisits = null
+
+        heardOfUs = ArrayList()
     }
 }
 
@@ -80,4 +87,8 @@ enum class VisitTimes {
 
 enum class NumberOfVisits {
     Once, Twice, Thrice, FourFiveTimes, SixOrMore
+}
+
+enum class HeardOfUs {
+    Hoardings, NewsPapers, SocialMedia, Website, FriendsAndRelatives, Radio
 }
