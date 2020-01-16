@@ -140,5 +140,6 @@
     <string name="title_activity_how_long_page">HowLongPage</string>
     <string name="title_activity_visits_page">VisitsPage</string>
     <string name="title_activity_hear_of_us_page">HearOfUsPage</string>
+    <string name="title_activity_thank_you">ThankYou</string>
 
 </resources>
