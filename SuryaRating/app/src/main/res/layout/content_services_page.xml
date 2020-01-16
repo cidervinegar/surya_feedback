@@ -10,18 +10,77 @@
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/text_margin"
+            android:textSize="@dimen/text_size"
             android:text="@string/textview_services_question" />
 
         <CheckBox
+            android:id="@+id/checkBoxVaccinations"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/checkbox_vaccinations"/>
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:textSize="@dimen/text_size"
+            android:text="@string/checkbox_vaccinations" />
+
+        <CheckBox
+            android:id="@+id/checkBoxPathology"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:textSize="@dimen/text_size"
+            android:text="@string/checkbox_pathology" />
+
+        <CheckBox
+            android:id="@+id/checkBoxRadiology"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:textSize="@dimen/text_size"
+            android:text="@string/checkbox_radiology" />
+
+        <CheckBox
+            android:id="@+id/checkBoxCardiology"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:textSize="@dimen/text_size"
+            android:text="@string/checkbox_cardiology" />
+
+        <CheckBox
+            android:id="@+id/checkBoxNeurology"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:textSize="@dimen/text_size"
+            android:text="@string/checkbox_neurology" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/button_services_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="@dimen/fab_margin"
+                app:srcCompat="@android:drawable/ic_media_play" />
+
+        </LinearLayout>
 
 
     </androidx.appcompat.widget.LinearLayoutCompat>

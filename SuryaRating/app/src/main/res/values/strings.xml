@@ -94,6 +94,10 @@
     <string name="button_next"><u>Next</u></string>
 
     <string name="checkbox_vaccinations">Vaccinations</string>
+    <string name="checkbox_pathology">Pathology</string>
+    <string name="checkbox_radiology">Radiology</string>
+    <string name="checkbox_cardiology">Cardiology</string>
+    <string name="checkbox_neurology">Neurology</string>
 
     <string name="string_feedback_form">Feedback Form</string>
     <string name="string_feedback_valued">We sincerely value your view.</string>
@@ -118,9 +122,12 @@
     <string name="textview_billing_process">Billing Process</string>
     <string name="textview_value_for_money">Value for Money</string>
     <string name="textview_cleanliness_of_hospital">Cleanliness of Hospital</string>
-    
+
+    <string name="textview_recommend_question">On a scale of 1 to 5, where 1 is least likely and 5 is extremely likely,how likely are you to recommend Surya Hospitals to a famlily member or a friend?</string>
+    <string name="textview_reason_question">Please specify the reason for your rating.</string>
+
     <string name="textview_services_question">Did you avail any of the following services at Surya Hospitals?</string>
-    
+
     <string name="edittext_signature">Enter full name</string>
 
     <string name="button_opd"><u>OPD</u></string>
@@ -130,5 +137,6 @@
     <string name="title_activity_field_ratings">FieldRatings</string>
     <string name="title_activity_recommend_rating">RecommendRating</string>
     <string name="title_activity_services_page">ServicesPage</string>
+    <string name="title_activity_how_long_page">HowLongPage</string>
 
 </resources>

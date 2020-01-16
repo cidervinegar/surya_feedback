@@ -18,7 +18,7 @@ class FieldRatings : AppCompatActivity() {
                 .setAction("Action", null).show()
         }
         button_field_ratings_next.setOnClickListener { _ ->
-            startActivity(Intent(this, ServicesPage::class.java))
+            startActivity(Intent(this, RecommendRating::class.java))
         }
     }
 }
