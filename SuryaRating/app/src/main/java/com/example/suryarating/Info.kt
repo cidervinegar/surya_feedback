@@ -30,6 +30,8 @@ class Info : Application() {
 
     var services : ArrayList<Services> = ArrayList()
 
+    var visitingSince : VisitTimes? = null
+
     fun clearInfo() {
         patientDepartment = null
         patientName = null
@@ -56,6 +58,8 @@ class Info : Application() {
         reasonRecommend = null
 
         services = ArrayList()
+
+        visitingSince = null
     }
 }
 
@@ -65,4 +69,8 @@ enum class PD {
 
 enum class Services {
     Vaccinations, Pathology, Radiology, Cardiology, Neurology
+}
+
+enum class VisitTimes {
+    First, SixMonths, OneYear, ThreeYears, MoreThanThreeYears
 }
