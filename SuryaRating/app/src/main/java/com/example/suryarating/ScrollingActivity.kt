@@ -3,7 +3,6 @@ package com.example.suryarating
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
-import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
@@ -12,24 +11,25 @@ import kotlinx.android.synthetic.main.content_scrolling.*
 
 class ScrollingActivity : AppCompatActivity() {
     private val TAG : String = "Starting activity"
+    var info : Info? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        info = applicationContext as Info
         setContentView(R.layout.activity_scrolling)
         setSupportActionBar(toolbar)
+        info!!.clearInfo()
         button_ipd.setOnClickListener { _ ->
             Log.d(TAG, "ipd button clicked")
+            info!!.patientDepartment = PD.IPD
             val intent = Intent(this, PersonalDetailsPage::class.java)
             startActivity(intent)
         }
         button_opd.setOnClickListener { _ ->
             Log.d(TAG, "opd button clicked")
+            info!!.patientDepartment = PD.OPD
             val intent = Intent(this, PersonalDetailsPage::class.java)
             startActivity(intent)
-        }
-        fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
         }
     }
 
