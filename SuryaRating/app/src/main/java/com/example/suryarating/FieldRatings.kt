@@ -18,10 +18,6 @@ class FieldRatings : AppCompatActivity() {
         info = applicationContext as Info
         setContentView(R.layout.activity_field_ratings)
         setSupportActionBar(toolbar)
-        fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
-        }
         setup()
         button_field_ratings_next.setOnClickListener { _ ->
             startActivity(Intent(this, RecommendRating::class.java))

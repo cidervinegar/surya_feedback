@@ -22,22 +22,9 @@ class PersonalDetailsPage : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         info = applicationContext as Info
-        Log.d(TAG, info!!.patientDepartment?.name)
         setContentView(R.layout.activity_personal_details_page)
         setSupportActionBar(toolbar)
-        fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
-        }
         button_personal_details_next.setOnClickListener { _ ->
-//            info!!.patientName = edittext_patient_name.text.toString()
-//            info!!.consultingDoctor = edittext_consulting_doctor.text.toString()
-//            info!!.speciality = edittext_speciality.text.toString()
-//            info!!.UHID = edittext_uhid.text.toString()
-//            info!!.dateOfVisit = edittext_date_of_visit.text.toString()
-//            info!!.contactNumber = edittext_contact_no.text.toString()
-//            info!!.email = edittext_email.text.toString()
-//            info!!.signature = edittext_signature.text.toString()
             startActivity(Intent(this, FieldRatings::class.java))
         }
         setup()
