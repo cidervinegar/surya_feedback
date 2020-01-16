@@ -138,5 +138,6 @@
     <string name="title_activity_recommend_rating">RecommendRating</string>
     <string name="title_activity_services_page">ServicesPage</string>
     <string name="title_activity_how_long_page">HowLongPage</string>
+    <string name="title_activity_visits_page">VisitsPage</string>
 
 </resources>

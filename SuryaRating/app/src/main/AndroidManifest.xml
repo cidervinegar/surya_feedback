@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".VisitsPage"
+            android:label="@string/title_activity_visits_page"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".HowLongPage"
             android:label="@string/title_activity_how_long_page"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ServicesPage"
             android:label="@string/title_activity_services_page"
