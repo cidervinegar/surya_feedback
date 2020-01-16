@@ -127,9 +127,9 @@
 
     <string name="textview_services_question">Did you avail any of the following services at Surya Hospitals?</string>
     <string name="textview_how_long">How long have you been visiting Surya Hospitals?</string>
-
+    <string name="textview_how_visits">In the last 12 months how many times did you visit Surya Hospital?</string>
     <string name="edittext_signature">Enter full name</string>
-
+    <string name="textview_hear">How did you hear about us?</string>
     <string name="button_opd"><u>OPD</u></string>
     <string name="button_ipd"><u>IPD</u></string>
     <string name="title_activity_personal_details">PersonalDetails</string>

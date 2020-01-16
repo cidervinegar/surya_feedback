@@ -17,13 +17,67 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/text_margin"
-            android:text="@string/large_text" />
+            android:text="@string/textview_hear" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="right"
             android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBoxHoardings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:layout_marginRight="@dimen/text_margin"
+                android:textSize="@dimen/text_size"
+                android:text="Hoardings" />
+
+            <CheckBox
+                android:id="@+id/checkBoxNewspapers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:layout_marginRight="@dimen/text_margin"
+                android:textSize="@dimen/text_size"
+                android:text="Newspapers" />
+
+            <CheckBox
+                android:id="@+id/checkBoxSocialMedia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:layout_marginRight="@dimen/text_margin"
+                android:textSize="@dimen/text_size"
+                android:text="Social Media" />
+
+            <CheckBox
+                android:id="@+id/checkBoxWebsite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:layout_marginRight="@dimen/text_margin"
+                android:textSize="@dimen/text_size"
+                android:text="Website" />
+
+            <CheckBox
+                android:id="@+id/checkBoxFriends"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:layout_marginRight="@dimen/text_margin"
+                android:textSize="@dimen/text_size"
+                android:text="Friends and Relatives" />
+
+            <CheckBox
+                android:id="@+id/checkBoxRadio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:layout_marginRight="@dimen/text_margin"
+                android:textSize="@dimen/text_size"
+                android:text="Radio" />
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:id="@+id/button_hear_of_us_next"
