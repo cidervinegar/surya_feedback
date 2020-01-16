@@ -31,6 +31,7 @@ class Info : Application() {
     var services : ArrayList<Services> = ArrayList()
 
     var visitingSince : VisitTimes? = null
+    var numberOfVisits : NumberOfVisits? = null
 
     fun clearInfo() {
         patientDepartment = null
@@ -60,6 +61,8 @@ class Info : Application() {
         services = ArrayList()
 
         visitingSince = null
+
+        numberOfVisits = null
     }
 }
 
@@ -73,4 +76,8 @@ enum class Services {
 
 enum class VisitTimes {
     First, SixMonths, OneYear, ThreeYears, MoreThanThreeYears
+}
+
+enum class NumberOfVisits {
+    Once, Twice, Thrice, FourFiveTimes, SixOrMore
 }
