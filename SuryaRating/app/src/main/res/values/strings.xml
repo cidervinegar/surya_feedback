@@ -137,14 +137,13 @@
     <string name="button_opd"><u>OPD</u></string>
     <string name="button_ipd"><u>IPD</u></string>
     <string name="button_fill_another"><u>Fill Another Form</u></string>
-    <string name="title_activity_personal_details">PersonalDetails</string>
-    <string name="title_activity_personal_details_page">PersonalDetailsPage</string>
-    <string name="title_activity_field_ratings">FieldRatings</string>
-    <string name="title_activity_recommend_rating">RecommendRating</string>
-    <string name="title_activity_services_page">ServicesPage</string>
-    <string name="title_activity_how_long_page">HowLongPage</string>
-    <string name="title_activity_visits_page">VisitsPage</string>
-    <string name="title_activity_hear_of_us_page">HearOfUsPage</string>
-    <string name="title_activity_thank_you">ThankYou</string>
+    <string name="title_activity_personal_details_page">Personal Details (1/7)</string>
+    <string name="title_activity_field_ratings">Detailed Ratings (2/7)</string>
+    <string name="title_activity_recommend_rating">Overall Recommendation Rating (3/7)</string>
+    <string name="title_activity_services_page">Services Availed (4/7)</string>
+    <string name="title_activity_how_long_page">Length of Assosciation (5/7)</string>
+    <string name="title_activity_visits_page">Frequency of Visits (6/7)</string>
+    <string name="title_activity_hear_of_us_page">How did you hear of us? (7/7)</string>
+    <string name="title_activity_thank_you">Thank You</string>
 
 </resources>
