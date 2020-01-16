@@ -80,6 +80,75 @@
                 android:text="Radio"
                 android:textSize="@dimen/text_size" />
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size"
+                    android:layout_margin="@dimen/text_margin"
+                    android:text="@string/textview_others" />
+
+                <EditText
+                    android:id="@+id/edittext_other_heard_of_us"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size"
+                    android:layout_marginRight="@dimen/text_margin"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:layout_marginBottom="@dimen/text_margin" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size"
+                    android:layout_margin="@dimen/text_margin"
+                    android:text="@string/textview_doctors_ref" />
+
+                <EditText
+                    android:id="@+id/edittext_doctor_ref"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size"
+                    android:layout_marginRight="@dimen/text_margin"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:layout_marginBottom="@dimen/text_margin" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size"
+                    android:layout_margin="@dimen/text_margin"
+                    android:text="@string/textview_word_of_mouth" />
+
+                <EditText
+                    android:id="@+id/edittext_word_of_mouth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size"
+                    android:layout_marginRight="@dimen/text_margin"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:layout_marginBottom="@dimen/text_margin" />
+
+            </LinearLayout>
+
 
             <LinearLayout
                 android:layout_width="match_parent"
