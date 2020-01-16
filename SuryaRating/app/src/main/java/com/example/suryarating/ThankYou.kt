@@ -13,7 +13,9 @@ class ThankYou : AppCompatActivity() {
         setContentView(R.layout.activity_thank_you)
         setSupportActionBar(toolbar)
         button_fill_another_form.setOnClickListener { _ ->
-            startActivity(Intent(this, ScrollingActivity::class.java))
+            val intent = Intent(this, ScrollingActivity::class.java)
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
+            startActivity(intent)
         }
     }
 }
