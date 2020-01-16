@@ -17,7 +17,45 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/text_margin"
-            android:text="@string/large_text" />
+            android:text="@string/textview_how_visits" />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioButton1-2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Once" />
+
+            <RadioButton
+                android:id="@+id/radioButton2-5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Two" />
+
+            <RadioButton
+                android:id="@+id/radioButton5-10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thrice" />
+
+            <RadioButton
+                android:id="@+id/radioButton10-30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4-5 days" />
+
+            <RadioButton
+                android:id="@+id/radioButton_more_than_a_month"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6 times or more" />
+        </RadioGroup>
+
 
         <LinearLayout
             android:layout_width="match_parent"
