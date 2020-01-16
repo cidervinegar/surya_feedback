@@ -126,6 +126,7 @@
     <string name="textview_reason_question">Please specify the reason for your rating.</string>
 
     <string name="textview_services_question">Did you avail any of the following services at Surya Hospitals?</string>
+    <string name="textview_how_long">How long have you been visiting Surya Hospitals?</string>
 
     <string name="edittext_signature">Enter full name</string>
 

@@ -8,39 +8,75 @@
     tools:context=".HowLongPage"
     tools:showIn="@layout/activity_how_long_page">
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-        <RadioButton
-            android:id="@+id/radioButton1-2"
-            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="1-2 days"/>
+            android:layout_margin="@dimen/text_margin"
+            android:text="@string/textview_how_long"
+            android:textSize="@dimen/text_size" />
 
-        <RadioButton
-            android:id="@+id/radioButton2-5"
+        <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="2-5 days" />
-        <RadioButton
-            android:id="@+id/radioButton5-10"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioButton1-2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1-2 days" />
+
+            <RadioButton
+                android:id="@+id/radioButton2-5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2-5 days" />
+
+            <RadioButton
+                android:id="@+id/radioButton5-10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5-10 days" />
+
+            <RadioButton
+                android:id="@+id/radioButton10-30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10-30 days" />
+
+            <RadioButton
+                android:id="@+id/radioButton_more_than_a_month"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="More than a month" />
+        </RadioGroup>
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="5-10 days" />
-        <RadioButton
-            android:id="@+id/radioButton10-30"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="10-30 days" />
-        <RadioButton
-            android:id="@+id/radioButton_more_than_a_month"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="More than a month" />
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/button_how_long_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="@dimen/fab_margin"
+                app:srcCompat="@android:drawable/ic_media_play" />
+
+        </LinearLayout>
 
     </LinearLayout>
+
+
 </androidx.core.widget.NestedScrollView>
