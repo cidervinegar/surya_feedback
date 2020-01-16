@@ -21,5 +21,4 @@ class FieldRatings : AppCompatActivity() {
             startActivity(Intent(this, ServicesPage::class.java))
         }
     }
-    
 }
