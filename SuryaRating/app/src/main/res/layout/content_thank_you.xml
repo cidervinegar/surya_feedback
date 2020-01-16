@@ -18,6 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/text_margin"
             android:text="Thank You!"
+            android:textSize="@dimen/text_size"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
         <Button
@@ -26,7 +27,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/transparent"
-            android:text="Fill Another Form" />
+            android:layout_margin="@dimen/text_margin"
+            android:textSize="@dimen/text_size"
+            android:text="@string/button_fill_another" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.core.widget.NestedScrollView>

@@ -33,30 +33,35 @@
                 android:id="@+id/radioButton1-2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"
                 android:text="1-2 days" />
 
             <RadioButton
                 android:id="@+id/radioButton2-5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"
                 android:text="2-5 days" />
 
             <RadioButton
                 android:id="@+id/radioButton5-10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"
                 android:text="5-10 days" />
 
             <RadioButton
                 android:id="@+id/radioButton10-30"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"
                 android:text="10-30 days" />
 
             <RadioButton
                 android:id="@+id/radioButton_more_than_a_month"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"
                 android:text="More than a month" />
         </RadioGroup>
 

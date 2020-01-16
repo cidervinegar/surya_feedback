@@ -132,6 +132,7 @@
     <string name="textview_hear">How did you hear about us?</string>
     <string name="button_opd"><u>OPD</u></string>
     <string name="button_ipd"><u>IPD</u></string>
+    <string name="button_fill_another"><u>Fill Another Form</u></string>
     <string name="title_activity_personal_details">PersonalDetails</string>
     <string name="title_activity_personal_details_page">PersonalDetailsPage</string>
     <string name="title_activity_field_ratings">FieldRatings</string>
