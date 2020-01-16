@@ -14,6 +14,17 @@ class Info : Application() {
     var email : String? = null
     var signature : String? = null
 
+    var ratingEaseOfBooking : Float = 0f
+    var ratingLocation : Float = 0f
+    var ratingCleanliness : Float = 0f
+    var ratingCommunication : Float = 0f
+    var ratingWaitingTime : Float = 0f
+    var ratingCareProvidedDoctor : Float = 0f
+    var ratingCareProvidedNursingStaff : Float = 0f
+    var hospitalInfrastructure : Float = 0f
+    var ratingBillingProcess : Float = 0f
+    var ratingValueForMoney : Float = 0f
+
     fun clearInfo() {
         patientDepartment = null
         patientName = null
@@ -24,6 +35,17 @@ class Info : Application() {
         contactNumber = null
         email = null
         signature = null
+
+        ratingEaseOfBooking = 0f
+        ratingLocation = 0f
+        ratingCleanliness = 0f
+        ratingCommunication = 0f
+        ratingWaitingTime = 0f
+        ratingCareProvidedDoctor = 0f
+        ratingCareProvidedNursingStaff = 0f
+        hospitalInfrastructure = 0f
+        ratingBillingProcess = 0f
+        ratingValueForMoney = 0f
     }
 }
 
