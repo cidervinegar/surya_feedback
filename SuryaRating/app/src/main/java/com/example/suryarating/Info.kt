@@ -12,7 +12,7 @@ class Info : Application() {
     var dateOfVisit : String? = null
     var contactNumber : String? = null
     var email : String? = null
-    var Signature : String? = null
+    var signature : String? = null
 
     fun clearInfo() {
         patientDepartment = null
@@ -23,7 +23,7 @@ class Info : Application() {
         dateOfVisit = null
         contactNumber = null
         email = null
-        Signature = null
+        signature = null
     }
 }
 

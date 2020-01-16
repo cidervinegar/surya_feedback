@@ -6,6 +6,7 @@ import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_field_ratings.*
 import kotlinx.android.synthetic.main.content_field_ratings.*
+import kotlinx.android.synthetic.main.content_personal_details_page.*
 
 class FieldRatings : AppCompatActivity() {
 
