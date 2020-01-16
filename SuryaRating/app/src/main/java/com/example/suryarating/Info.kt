@@ -25,6 +25,11 @@ class Info : Application() {
     var ratingBillingProcess : Float = 0f
     var ratingValueForMoney : Float = 0f
 
+    var ratingRecommend : Float = 0f
+    var reasonRecommend : String? = null
+
+    var services : ArrayList<Services> = ArrayList()
+
     fun clearInfo() {
         patientDepartment = null
         patientName = null
@@ -46,9 +51,18 @@ class Info : Application() {
         hospitalInfrastructure = 0f
         ratingBillingProcess = 0f
         ratingValueForMoney = 0f
+
+        ratingRecommend = 0f
+        reasonRecommend = null
+
+        services = ArrayList()
     }
 }
 
 enum class PD {
     OPD, IPD
+}
+
+enum class Services {
+    Vaccinations, Pathology, Radiology, Cardiology, Neurology
 }
