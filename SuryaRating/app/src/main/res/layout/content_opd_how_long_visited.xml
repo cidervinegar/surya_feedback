@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".opd_how_long_visited"
+    tools:showIn="@layout/activity_opd_how_long_visited">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/large_text" />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/text_margin"
+        android:layout_marginRight="@dimen/text_margin"
+        android:orientation="vertical"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/checkbox_first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size"
+            android:text="@string/textview_first_visit" />
+        <CheckBox
+            android:id="@+id/checkbox_less_than_6_months"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size"
+            android:text="@string/textview_less_than_6" />
+        <CheckBox
+            android:id="@+id/checkbox_6_months"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size"
+            android:text="@string/textview_6_months" />
+        <CheckBox
+            android:id="@+id/checkbox_1_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size"
+            android:text="@string/textview_1_year" />
+        <CheckBox
+            android:id="@+id/checkbox_3_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size"
+            android:text="@string/textview_3_year" />
+
+/>
+
+</androidx.core.widget.NestedScrollView>

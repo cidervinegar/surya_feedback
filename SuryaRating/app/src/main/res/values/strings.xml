@@ -131,7 +131,12 @@
     <string name="textview_others">Others:</string>
     <string name="textview_doctors_ref">Doctors ref.:</string>
     <string name="textview_word_of_mouth">Word of mouth:</string>
-    
+    <string name="textview_how_long_visiting">How long have you been visiting Surya Hospitals?</string>
+    <string name="textview_first_visit">First Visit:</string>
+    <string name="textview_less_than_6">Less than 6 months</string>
+    <string name="textview_6_months">6 months to one year</string>
+    <string name="textview_1_year">1-3 years</string>
+    <string name="textview_3_year">More than 3 years</string>
     <string name="edittext_signature">Enter full name</string>
     <string name="textview_hear">How did you hear about us?</string>
     <string name="button_opd"><u>OPD</u></string>
@@ -145,5 +150,6 @@
     <string name="title_activity_visits_page">Frequency of Visits (6/7)</string>
     <string name="title_activity_hear_of_us_page">How did you hear of us? (7/7)</string>
     <string name="title_activity_thank_you">Thank You</string>
+    <string name="title_activity_opd_how_long_visited">opd_how_long_visited</string>
 
 </resources>
